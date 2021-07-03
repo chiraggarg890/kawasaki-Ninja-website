@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <link rel="stylesheet" href="./CSS/form.css"/>
+        <title>Form</title>
+    </head>
+    <body onload="window.alert('Page Successfully loaded');"></body>
+        <div class="text2">
+            <p>Book Your Ride Right Away!!!!</p>
+        </div>
+        <div class="form bgform">
+            <div class="form-style-2">
+                <form action="">
+                    <span class="first">
+                        First Name : <input class="input-field" type="text" name="first"/>
+                    </span>
+                    <br />
+                    <span class="last">
+                        Last Name : <input class="input-field" type="text" name="last"/>
+                    </span>
+                    <br />
+                    <span class="mail">
+                        E-Mail : <input class="input-field" type="email" name="email" />
+                    </span>
+                    <br />
+                    <span class="phone">
+                        Phone : <input class="input-field" type="tel" name="phone" maxlength="10"/>
+                    </span>
+                    <br />
+                    <span class="pin">
+                        PIN Code : <input class="input-field" type="number" name="pin" maxlength="6"/>
+                    </span>
+                    <br />
+                    <span class="Mname">
+                        Choose Model Name :
+                        <select class="select-field" name="ModelName" id="">
+                            <option default="">None</option>
+                            <option value="ZX 10R">ZX 10R</option>
+                            <option value="Z900">Z900</option>
+                            <option value="650">650</option>
+                            <option value="1000SX">1000SX</option>
+                            <option value="NINJA H2">NINJA H2</option>
+                        </select>
+                    </span>
+                    <br />
+                    <span class="Myear">
+                        Select Model Year:
+                        <select class="select-field" name="ModelYear" id="">
+                            <option default="">None</option>
+                            <option value="2006">2005</option>
+                            <option value="2010">2008</option>
+                            <option value="2014">2012</option>
+                            <option value="2021">2020</option>
+                        </select>
+                    </span>
+                    <br />
+                    <span class="Mcolor">
+                        Select Colour :
+                        <select class="select-field" name="color" id="">
+                            <option default="">None</option>
+                            <option value="red">Red</option>
+                            <option value="black">Black</option>
+                            <option value="orange">Orange</option>
+                            <option value="blue">Blue</option>
+                            <option value="olive">Olive</option>
+                        </select>
+                    </span>
+                    <br />
+                    <span class="buttons">
+                        <input onclick ="getConfirmation();" type="submit" value="Submit" formaction="./index.html" />
+                        <input type="reset" value="Clear"/>
+                    </span>
+                </form>
+                <img class="formimg" src="./Media 2/form_image.jpg" alt="#" />
+            </div>
+        </div>
+    </body>
+</html>

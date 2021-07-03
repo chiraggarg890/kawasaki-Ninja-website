@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.text2 {
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  word-spacing: 7px;
+  /* background-color: #f5623d; */
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.btns {
+  border: none;
+  padding: 8px 15px 8px 15px;
+  background: #ff8500;
+  width: 30%;
+  height: 100px;
+  margin: 20px 100px;
+  color: #fff;
+  box-shadow: 1px 1px 4px #dadada;
+  border-radius: 3px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.select {
+  margin-left: 10%;
+}
+
+#demo {
+  height: 100px;
+  width: 30%;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 30px;
+  line-height: 70px;
+  font-size: 1.5rem;
+  margin-left: 550px;
+}
